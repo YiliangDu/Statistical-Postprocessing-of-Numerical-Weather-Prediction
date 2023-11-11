@@ -3,12 +3,12 @@ import pandas as pd
 import Est_trans
 import Est_Powertrans
 
-#for X[i,j], determine a regionally optimised value for power transformation
+#Determine a regionally optimised power value to transform X[i,j]
 
-#use two c++ code Est_trans and Est_Powertrans.
-#Est_trans include
-    # power transformation and log-sinh transformation.
-    # simplex numerical search method, to transformation parameters and normal distribution parameters.
+#Est_trans and Est_Powertrans are written by C++.
+#Est_trans 
+    # include power transformation and log-sinh transformation.
+    # use simplex numerical search method, estimate transformation parameters and normal distribution parameters.
 
 #Est_Powertrans
     # given a certain power, estimate normal distribution parameters, using simplex.
